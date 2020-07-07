@@ -1,0 +1,47 @@
+ 
+    <link rel="stylesheet" href="css/home.css"> 
+      <section id="home-page"> 
+
+        <h1>HomePage</h1>
+        <h2>List of All Users</h2>
+        <%if(allusers.length==0){%>
+          <h1>No Users available</h1>
+          <%}else{%>
+              <table>
+                   <tr>
+                       <th>
+                        FirstName
+                       </th>
+                       <th>
+                        LastName
+                       </th>
+                       <th>
+                        Email
+                        </th>
+                       <th>
+                         Actions
+                       </th>   
+                  </tr>
+                  <%for(user of allusers){%>
+                    <tr>
+                      <td>
+                       <%= user.firstName%>
+                      </td>
+                      <td>
+                       <%= user.lastName%>
+                      </td>
+                      <td>
+                        <%= user.email%>
+                       </td>
+                      <td>
+                        <a href="/users/reset-password/<%= user.email%>">Reset Password</a>
+                        <a href ="/users/delete-user/<%= user.email%>"><img src="https://image.flaticon.com/icons/svg/1214/1214428.svg" alt="X"></a>
+                        <a href="/users/user-details/<%= user.id%>">update</a>
+                      </td>   
+                 </tr>
+                    <%}%> 
+              </table>
+            <%}%>
+
+    </section>
+    <script src="js/app.js"></script> 

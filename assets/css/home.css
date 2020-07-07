@@ -1,0 +1,11 @@
+#reset-form{
+    display: none;
+}
+table, th, td {
+    border: 1px solid black;
+    padding:0.1rem;
+  }
+  img{
+      width:10px;
+      height:10px;
+  }

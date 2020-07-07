@@ -1,0 +1,19 @@
+
+  <section id="login">
+     <div  class="form-container"> 
+        <h2>Update</h2>
+        <form action="/users/update-deatils" method="POST">
+            <input type="hidden" name="id" value="<%= user.id%>" required>
+            <input type="text" name="firstName" value="<%= user.firstName%>" required>
+            <input type="text" name="lastName" value="<%= user.lastName%>" required>
+            <input type="email" name="email" value="<%= user.email%>" required>
+           <%if(address){%> 
+            <input type="text" name="location" value="<%= address.location%>" required>
+            <input type="text" name="pincode" value="<%= address.pincode%>" required>
+           <%}%> 
+            <button type="submit">update</button> 
+        </form>
+       
+        </div>   
+    </div>    
+</section>
