@@ -58,7 +58,7 @@
     "map-obj": "^1.0.1",
     "mongoose": "^5.9.20",
     "nan": "^2.14.1",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.4.16",
     "nopt": "^3.0.6",
     "normalize-package-data": "^2.5.0",
     "oauth-sign": "^0.9.0",
