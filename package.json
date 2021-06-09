@@ -98,7 +98,7 @@
     "strip-bom": "^2.0.0",
     "strip-indent": "^1.0.1",
     "tough-cookie": "^2.5.0",
-    "trim-newlines": "^1.0.0",
+    "trim-newlines": "^3.0.1",
     "tunnel-agent": "^0.6.0",
     "tweetnacl": "^0.14.5",
     "typedarray": "^0.0.6",
