@@ -4,7 +4,7 @@
   "description": "Node Machine Test",
   "main": "index.js",
   "dependencies": {
-    "ajv": "^6.12.2",
+    "ajv": "^6.12.3",
     "bcrypt": "^5.0.0",
     "bcrypt-pbkdf": "^1.0.2",
     "busboy": "^0.2.14",
